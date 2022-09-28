@@ -302,7 +302,8 @@ label {
 
 /* slider-area_start */
 .carousel_slider_area{
-	background: url(assets/img/slider/slider1.jpg);
+	background: url(./assets/img/slider/slider1.jpg);
+	padding: 90px 0;
 }
 .slider-area h4 {
 	font-size: 30px;
