@@ -520,7 +520,7 @@ label {
 	position: absolute;
 	color: #999999;
 	left: -7px;
-	top: 118px;
+	top: 90px;
 	font-size: 25px;
 	width: 40px;
 	height: 40px;
@@ -538,7 +538,7 @@ label {
 	position: absolute;
 	color: #999999;
 	right: -7px;
-	top: 118px;
+	top: 90px;
 	font-size: 25px;
 	width: 40px;
 	height: 40px;
@@ -549,3 +549,35 @@ label {
 	transition: 0.3s;
 }
 /* project_area_end */
+
+/* choose_area_start */
+.choose_video_area{
+	position: relative;
+}
+.choose_video_area a {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+}
+.choose_text_area h3 {
+	font-size: 16px;
+	line-height: 36px;
+	color: #555555;
+	font-weight: 700;
+	font-family: "Lato";
+}
+.choose_text_area h3 i{
+	margin-right: 15px;
+}
+.choose_text_area p {
+	font-size: 15px;
+	line-height: 25px;
+	color: #666666;
+	font-weight: 400;
+}	
+/* choose_area_end */

@@ -28,6 +28,7 @@
 $('.project_carousel_area').owlCarousel({
     loop:true,
     autoplay:true,
+    dots:false,
     autoplayTimeout: 3000,
     nav: true,
     navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
@@ -44,7 +45,11 @@ $('.project_carousel_area').owlCarousel({
     }
 })
 
-
+// magnific_popup
+$('.popup_video').magnificPopup({
+    type: 'image'
+    // other options
+  })
 
 
 
