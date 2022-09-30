@@ -51,6 +51,27 @@ $('.popup_video').magnificPopup({
     // other options
   })
 
+//   blog_carousel
+$('.blog_carousel_left').owlCarousel({
+    loop:true,
+    autoplay:true,
+    dots:false,
+    autoplayTimeout: 3000,
+    nav: true,
+    navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
 
 
 })(jQuery)
