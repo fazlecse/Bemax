@@ -393,6 +393,9 @@ label {
 .single_features:hover .feature_content {
 	transform: translateY(0%);
 }
+.feature_img img{
+	width: 100%;
+}
 .feature_content {
 	padding: 30px 28px;
 	background: #4f7ad6;
@@ -401,7 +404,8 @@ label {
 	left: 0;
 	transition: .3s;
 	transform: translateY(65%);
-	overflow: hidden;
+	bottom: 0;
+	right: 0;
 }
 .feature_content h3 {
 	font-size: 16px;

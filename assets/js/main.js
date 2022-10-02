@@ -34,10 +34,10 @@ $('.project_carousel_area').owlCarousel({
     navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
-            items:1
+            items:3
         },
         1000:{
             items:4
@@ -72,9 +72,9 @@ $('.brand_carousel').owlCarousel({
     loop:true,
     autoplay:true,
     dots:false,
-    autoplayTimeout: 4000,
+    autoplayTimeout:2000,
     margin:20,
-    nav: true,
+    nav: false,
     navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
     responsive:{
         0:{
