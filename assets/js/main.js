@@ -2,6 +2,13 @@
 (function ($){
     "use strict";
 
+    // mobile_menu
+    jQuery('#mobile_menu').meanmenu({
+        meanScreenWidth: "767",
+        meanMenuContainer: '.mobile_menu',
+        meanMenuOpen: "---"
+    });
+
 
 
     // Slider_area

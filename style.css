@@ -205,21 +205,21 @@ label {
 
 
 /* header_area_start */
-.main-menu ul li {
+.main_menu ul li {
   display: inline-block;
   margin-left: 40px;
   position: relative;
 }
-.main-menu ul li a {
+.main_menu ul li a {
 	color: #666;
 	display: block;
 	font-size: 15px;
 	padding: 50px 0;
 	text-decoration: none;
 }
-.main-menu ul li:hover a{color:#4272d7}
+.main_menu ul li:hover a{color:#4272d7}
 /* submenu */
-.main-menu ul li ul.submenu {
+.main_menu ul li ul.submenu {
 	background: #171a21 none repeat scroll 0 0;
 	border-top: 3px solid #4272d7;
 	opacity: 0;
@@ -231,37 +231,37 @@ label {
 	top: 110%;
 	z-index: 2;
 }
-.main-menu ul li:hover ul.submenu{
+.main_menu ul li:hover ul.submenu{
 	opacity:1;
 	visibility:visible;
 	top:100%;
 }
-.main-menu ul li ul.submenu li {
+.main_menu ul li ul.submenu li {
   border-bottom: 2px solid #1e2128;
   display: block;
   margin: 0;
 }
-.main-menu ul li ul.submenu li:last-child{border:0}
-.main-menu ul li ul.submenu li a {
+.main_menu ul li ul.submenu li:last-child{border:0}
+.main_menu ul li ul.submenu li a {
   color: #fff;
   font-size: 12px;
   padding: 15px 20px;
 }
-.main-menu ul li ul.submenu li:hover > a{background:#4272d7}
+.main_menu ul li ul.submenu li:hover > a{background:#4272d7}
 
-.main-menu ul li ul.submenu li ul.submenu {
+.main_menu ul li ul.submenu li ul.submenu {
   left: 100%;
   top: 0;
   opacity:0;
   visibility:hidden;
 }
-.main-menu ul li ul.submenu li:hover > ul.submenu{
+.main_menu ul li ul.submenu li:hover > ul.submenu{
 	visibility:visible;
 	opacity:1
 } 
 
 /* mega menu */
-.main-menu ul li .mega-menu {
+.main_menu ul li .mega-menu {
 	background: #171a21 none repeat scroll 0 0;
 	left: 0;
 	position: absolute;
@@ -272,30 +272,30 @@ label {
 	transition: .3s;
 	z-index: 2;
 }
-.main-menu ul li:hover .mega-menu{
+.main_menu ul li:hover .mega-menu{
 	opacity:1;
 	visibility:visible;
 	top:100%
 }
-.main-menu ul li .mega-menu ul {
+.main_menu ul li .mega-menu ul {
   float: left;
   padding-right: 30px;
   width: 33.33%;
 }
-.main-menu ul li .mega-menu ul:last-child{
+.main_menu ul li .mega-menu ul:last-child{
 	padding-right:0;
 }
-.main-menu ul li .mega-menu ul li {
+.main_menu ul li .mega-menu ul li {
   border-bottom: 2px solid #1e2128;
   display: block;
   margin: 0;
 }
-.main-menu ul li .mega-menu ul li a {
+.main_menu ul li .mega-menu ul li a {
   color: #fff;
   font-size: 12px;
   padding: 20px 15px;
 }
-.main-menu ul li .mega-menu ul li a:hover{
+.main_menu ul li .mega-menu ul li a:hover{
 	background:#4272d7;
 }
 .header-search::before {
