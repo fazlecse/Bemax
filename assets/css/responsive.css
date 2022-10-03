@@ -47,6 +47,9 @@
     .feature_content {
         transform: translateY(77%);
     }
+    .main_menu.d-flex.justify-content-end {
+        display: none !important;
+    }
 }
 
 @media (max-width: 575px){
