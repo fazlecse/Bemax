@@ -748,11 +748,11 @@ label {
 .footer_newslatter_area form{
 	position: relative;
 }
-.footer_newslatter_area input{
+.footer_newslatter_area input {
 	width: 100%;
 	font-size: 15px;
 	line-height: 28px;
-	color: #cccccc;
+	color: #000;
 	font-weight: 400;
 	height: 40px;
 	padding: 0 15px;
