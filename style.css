@@ -312,8 +312,8 @@ label {
 
 /* slider-area_start */
 .carousel_slider_area{
-	background: url(./assets/img/slider/slider1.jpg);
-	padding: 90px 0;
+	position: relative;
+	
 }
 .slider-area h4 {
 	font-size: 30px;
@@ -360,9 +360,23 @@ label {
 .fa-solid.fa-arrow-right:hover, .fa-solid.fa-arrow-left:hover{
 	color: #4272d7;
 }
+.carousel_slider_area .owl-dots {
+	position: absolute;
+	bottom: 115px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.carousel_slider_area .owl-dots .owl-dot span{
+	width: 16px;
+	height: 16px;
+}
 /* slider_area_end */
 
 /* Cta_area_start */
+.cta_area.pt-30.pb-30.theme-bg {
+	margin-top: -34px;
+}
 .cta_area p {
 	font-size: 18px;
 	line-height: 24px;
@@ -471,6 +485,12 @@ label {
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	transition: 0.3s all linear;
+}
+.service_icon i:hover {
+	background: #ffffff;
+	color: #4171d7;
+	border: 1px solid #4171d7;
 }
 .service_conten h3 {
 	font-size: 16px;
@@ -647,6 +667,10 @@ label {
 	font-size: 13px;
 	line-height: 24px;
 	color: #cccccc;
+	transition: 0.3s all;
+}
+.blog_content span:hover {
+	color: #4272d7;
 }
 .blog_content span:first-of-type {
 	margin-right: 10px;
@@ -666,6 +690,12 @@ label {
 	color: #999999;
 	left: 211px;
 	top: -71px;
+	transition: 0.3s all;
+  }
+.blog_carousel_angle .owl-nav button i:hover {
+	background-color: #333;
+	color: #fff;
+	border-color: #333;
   }
   .blog_carousel_angle .fa-solid.fa-angle-right {
 	left: 246px;
@@ -725,6 +755,9 @@ label {
 	text-decoration: none;
 	position: relative;
 	padding-left: 15px;
+}
+.footer_feature_area ul li a:hover{
+	color: #fff;
 }
 
 .footer_feature_area ul li a::before {

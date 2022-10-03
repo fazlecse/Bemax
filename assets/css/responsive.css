@@ -35,7 +35,7 @@
 
 @media (max-width:767px){
     .header-area .logo img {
-        top: 22px;
+        top: -26px;
         position: relative;
     }
     .cta_text {
