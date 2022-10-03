@@ -41,7 +41,11 @@ $('.project_carousel_area').owlCarousel({
     navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
     responsive:{
         0:{
-            items:2
+            items:2,
+            nav:false
+        },
+        450:{
+            items:2,
         },
         768:{
             items:3
@@ -62,7 +66,7 @@ $('.blog_carousel_angle').owlCarousel({
     navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
     responsive:{
         0:{
-            items:1
+            items:1,
         },
         600:{
             items:1
