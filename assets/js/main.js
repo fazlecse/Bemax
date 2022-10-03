@@ -6,7 +6,7 @@
     jQuery('#mobile_menu').meanmenu({
         meanScreenWidth: "767",
         meanMenuContainer: '.mobile_menu',
-        meanMenuOpen: "---"
+        meanMenuOpen: "☰"
     });
 
 
@@ -43,7 +43,7 @@ $('.project_carousel_area').owlCarousel({
         0:{
             items:2
         },
-        600:{
+        768:{
             items:3
         },
         1000:{
@@ -55,7 +55,7 @@ $('.project_carousel_area').owlCarousel({
 //   blog_carousel
 $('.blog_carousel_angle').owlCarousel({
     loop:true,
-    autoplay:true,
+    // autoplay:true,
     dots:false,
     autoplayTimeout: 3000,
     nav: true,
@@ -85,7 +85,7 @@ $('.brand_carousel').owlCarousel({
     navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
     responsive:{
         0:{
-            items:1
+            items:4
         },
         600:{
             items:4

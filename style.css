@@ -148,7 +148,7 @@ label {
 }
 /* button style */
 
-.btn{
+.btn {
 	-moz-user-select: none;
 	background: #4272d7;
 	color: #fff;
@@ -162,7 +162,8 @@ label {
 	text-transform: uppercase;
 	vertical-align: middle;
 	border-radius: 0;
-	border: navajowhite;
+	border: 1px solid #4272d7;
+	transition: .3s all ease-in;
 }
 .btn.btn-black {
 	background: #303b41;
@@ -171,9 +172,9 @@ label {
 	background: #1a1a1a;
 }
 .btn:hover {
-	background: #4272d7 !important;
-	color: #fff !important;
-	border: none;
+	background: #fff !important;
+	color: #4272d7 !important;
+	border: 1px solid #4272d7 !important;
 }
 .btn.btn-large {
 	padding: 10px 25px;
@@ -381,6 +382,11 @@ label {
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 15px;
+	transition: .3s all ease-in;
+}
+.hire_btn a:hover {
+	background: #fff;
+	color: #4272d7;
 }
 /* Cta_area_end */
 
@@ -638,6 +644,9 @@ label {
 	font-size: 13px;
 	line-height: 24px;
 	color: #cccccc;
+}
+.blog_content span:first-of-type {
+	margin-right: 10px;
 }
 .blog_content span i {
 	margin-right: 2px;
