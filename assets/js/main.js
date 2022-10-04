@@ -34,7 +34,7 @@
 // project_carousel_area
 $('.project_carousel_area').owlCarousel({
     loop:true,
-    autoplay:true,
+    // autoplay:true,
     dots:false,
     autoplayTimeout: 3000,
     nav: true,

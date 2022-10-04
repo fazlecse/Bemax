@@ -418,7 +418,7 @@ label {
 }
 .feature_content {
 	padding: 30px 28px;
-	background: #4f7ad6;
+	background: rgb(79, 122, 214,.9);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -545,12 +545,22 @@ label {
 	font-size: 15px;
 	line-height: 18px;
 	font-weight: 700;
+	transform: translateY(-40%);
+	transition: all 0.5s;
 }
 .project_content p {
 	color: #cccccc;
 	font-size: 13px;
 	line-height: 22px;
 	font-weight: 400;
+	transform: translateY(40%);
+	transition: all 0.5s;
+}
+.project_area:hover .project_content h4{
+	transform: translateY(0);
+}
+.project_area:hover .project_content p{
+	transform: translateY(0);
 }
 /* .project_carousel_area{
 	position: relative;
