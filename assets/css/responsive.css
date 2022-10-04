@@ -73,6 +73,12 @@
     .footer_newslatter_area {
         padding-left: 0px;
     }
+    .slider-area h1 {
+        font-size: 45px;
+    }
+    .slider-area h4 {
+        font-size: 25px;
+    }
 }
 
 @media (max-width:500px){
@@ -88,8 +94,5 @@
 @media (max-width: 400px){
     .feature_content {
         transform: translateY(65%);
-    }
-    .slider-area h1 {
-        font-size: 50px;
     }
 }
