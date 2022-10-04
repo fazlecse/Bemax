@@ -1,4 +1,15 @@
-@media (max-width:1191px){
+@media (min-width: 1400px){
+    .feature_content {
+        transform: translateY(72%);
+    }
+}
+@media (max-width: 1399px){
+    .feature_content {
+        transform: translateY(68%);
+    }
+}
+
+@media (max-width:1199px){
     .main-menu ul li .mega-menu {
         left: -100px;
     }
@@ -12,6 +23,9 @@
     }
     .feature_content p {
         display: none;
+    }
+    .feature_content {
+        transform: translateY(65%);
     }
 }
 
