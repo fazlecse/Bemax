@@ -795,12 +795,13 @@ label {
 	width: 100%;
 	font-size: 15px;
 	line-height: 28px;
-	color: #000;
+	color: #fff;
 	font-weight: 400;
 	height: 40px;
 	padding: 0 15px;
 	border: none;
 	outline: 0;
+	background: #2e3138;
 }
 .footer_newslatter_area button {
 	position: absolute;
@@ -815,6 +816,10 @@ label {
 	color: #ffffff;
 	font-weight: 700;
 	padding: 0 15px;
+}
+.footer_newslatter_area button:hover {
+	background-color: #ffffff;
+	color: #4272d7;
 }
 /* footer_area_end */
 

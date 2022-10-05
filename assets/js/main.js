@@ -59,7 +59,7 @@ $('.project_carousel_area').owlCarousel({
 //   blog_carousel
 $('.blog_carousel_angle').owlCarousel({
     loop:true,
-    autoplay:true,
+    // autoplay:true,
     dots:false,
     autoplayTimeout: 3000,
     nav: true,
