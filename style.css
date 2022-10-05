@@ -556,15 +556,15 @@ label {
 	transform: translateY(40%);
 	transition: all 0.5s;
 }
-.project_area:hover .project_content h4{
+.project_inner_area:hover .project_content h4{
 	transform: translateY(0);
 }
-.project_area:hover .project_content p{
+.project_inner_area:hover .project_content p{
 	transform: translateY(0);
-}
-/* .project_carousel_area{
-	position: relative;
 } */
+.project_carousel_area{
+	position: relative;
+}
 .project_carousel_area .owl-nav button {
 	position: absolute;
 	color: #999999 !important;
@@ -585,10 +585,10 @@ label {
 	background: #4272d7 !important;
 	color: #fff !important;
 }
-/* .project_carousel_area .owl-theme .owl-nav{
+.project_carousel_area .owl-theme .owl-nav{
 	margin: 0px !important;
-} */
-/* project_area_end */
+}
+/* project_area_end
 
 /* choose_area_start */
 .choose_video_area{

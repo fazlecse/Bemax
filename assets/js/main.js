@@ -21,7 +21,6 @@
     responsive:{
         0:{
             items:1,
-            // nav:false
         },
         600:{
             items:1
@@ -35,7 +34,7 @@
 // project_carousel_area
 $('.project_carousel_area').owlCarousel({
     loop:true,
-    // autoplay:true,
+    autoplay:true,
     dots:false,
     autoplayTimeout: 3000,
     nav: true,
@@ -60,7 +59,7 @@ $('.project_carousel_area').owlCarousel({
 //   blog_carousel
 $('.blog_carousel_angle').owlCarousel({
     loop:true,
-    // autoplay:true,
+    autoplay:true,
     dots:false,
     autoplayTimeout: 3000,
     nav: true,
